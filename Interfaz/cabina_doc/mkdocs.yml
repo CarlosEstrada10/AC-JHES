@@ -1,0 +1,33 @@
+site_name: Documentacion del "AC-JHES"
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
+
+
+nav:
+  - Bienvenida: index.md
+  - Manual de uso: user_manual.md
+  - Desarrollo del proyecto: development.md
+  - Manual de mantenimiento: mantaince_manual.md
+  - Acerca de: about.md
