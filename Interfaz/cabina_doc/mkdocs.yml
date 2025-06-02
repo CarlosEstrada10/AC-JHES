@@ -1,6 +1,7 @@
 site_name: Documentacion del "AC-JHES"
 theme:
   name: material
+  favicon: images/avion.png
   language: es
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -30,4 +31,9 @@ nav:
   - Manual de uso: user_manual.md
   - Desarrollo del proyecto: development.md
   - Manual de mantenimiento: mantaince_manual.md
-  - Acerca de: about.md
+  - Acerca de: 
+    - ¿Qué es la cabina?: about/#que-es-la-cabina-de-simulacion-ac-jhes
+    - Como contribuir: about/#como-contribuir
+    - Contacto: about/#contacto
+    - Licencia: about/#licencia
+  
